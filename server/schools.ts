@@ -224,22 +224,99 @@ interface OverpassElement {
 }
 
 async function queryOverpassFast(query: string): Promise<OverpassElement[]> {
-  try {
-    const res = await fetch('https://overpass-api.de/api/interpreter', {
-      method: 'POST',
-      headers: {
-        'User-Agent': 'NetPulse-NOC/1.0 (School-Network-Planner)',
-        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-      },
-      body: new URLSearchParams({ data: query }).toString(),
-      signal: AbortSignal.timeout(4500),
-    });
-    if (!res.ok) return [];
-    const payload = (await res.json()) as { elements?: OverpassElement[] };
-    return Array.isArray(payload.elements) ? payload.elements : [];
-  } catch {
-    return [];
+  const endpoints = [
+    'https://overpass-api.de/api/interpreter',
+    'https://overpass.kumi.systems/api/interpreter',
+    'https://overpass.private.coffee/api/interpreter',
+  ];
+
+  for (const endpoint of endpoints) {
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'User-Agent': 'NetPulse-NOC/1.0 (School-Network-Planner)',
+          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+          Accept: 'application/json',
+        },
+        body: new URLSearchParams({ data: query }).toString(),
+        signal: AbortSignal.timeout(20000),
+      });
+
+      if (!res.ok) {
+        console.warn(`Overpass endpoint ${endpoint} returned HTTP ${res.status}`);
+        continue;
+      }
+
+      const payload = (await res.json()) as { elements?: OverpassElement[] };
+      if (Array.isArray(payload.elements)) return payload.elements;
+    } catch (error) {
+      console.warn(`Overpass request failed for ${endpoint}:`, error);
+    }
   }
+
+  return [];
+}
+
+async function discoverSchoolsViaOverpass(
+  central: CentralSchoolAnchor,
+  radiusKm: number
+): Promise<DiscoveredSchool[]> {
+  const radiusMeters = Math.round(radiusKm * 1000);
+  const query = `
+    [out:json][timeout:25];
+    (
+      nwr(around:${radiusMeters},${central.lat},${central.lng})["amenity"~"^(school|college|university|kindergarten)$"];
+    );
+    out center tags;
+  `;
+
+  const elements = await queryOverpassFast(query);
+  const results: DiscoveredSchool[] = [];
+
+  for (const element of elements) {
+    const tags = element.tags || {};
+    const name = tags.name?.trim();
+    const lat = element.lat ?? element.center?.lat;
+    const lng = element.lon ?? element.center?.lon;
+    if (!name || typeof lat !== 'number' || typeof lng !== 'number') continue;
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue;
+
+    const distanceKm = haversineDistanceKm(central.lat, central.lng, lat, lng);
+    if (distanceKm > radiusKm) continue;
+    if (normalizeSchoolName(name).includes('tanauan south central') && distanceKm < 0.25) continue;
+
+    const addressParts = [
+      tags['addr:street'],
+      tags['addr:suburb'] || tags['addr:quarter'] || tags['addr:neighbourhood'],
+      tags['addr:city'] || tags['addr:town'] || 'Tanauan City',
+      tags['addr:province'] || tags['addr:state'] || 'Batangas',
+    ].filter(Boolean);
+    const hasAddress = Boolean(tags['addr:street'] || tags['addr:suburb'] || tags['addr:city']);
+    const equipment = recommendWirelessEquipment(distanceKm);
+
+    results.push({
+      id: `osm-${element.type}-${element.id}`,
+      externalId: `${element.type}/${element.id}`,
+      name,
+      address: addressParts.length ? addressParts.join(', ') : 'Tanauan City, Batangas, Philippines',
+      lat,
+      lng,
+      distanceKm: Math.round(distanceKm * 100) / 100,
+      distanceMeters: Math.round(distanceKm * 1000),
+      bearingDeg: Math.round(calculateBearingDeg(central.lat, central.lng, lat, lng)),
+      category: classifyOsmSchool(name, tags),
+      withinRadius: true,
+      verificationStatus: hasAddress || element.type !== 'node' ? 'verified' : 'unverified',
+      verificationReason: hasAddress || element.type !== 'node'
+        ? 'OpenStreetMap educational facility with address or mapped campus geometry'
+        : 'OpenStreetMap school node; confirm exact campus location',
+      source: 'openstreetmap-overpass',
+      ...equipment,
+    });
+  }
+
+  return deduplicateSchools(results);
 }
 
 interface NominatimItem {
@@ -515,6 +592,8 @@ async function resolveTargetSchoolViaNominatim(
   radiusKm: number
 ): Promise<DiscoveredSchool | null> {
   for (const query of spec.queries) {
+    // Public Nominatim policy requires requests to be limited to at most 1 per second.
+    await new Promise((resolve) => setTimeout(resolve, 1100));
     try {
       const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(
         `${query}, Tanauan, Batangas, Philippines`
@@ -669,8 +748,9 @@ async function discoverViaGooglePlaces(
     googleMapsUri?: string;
   };
 
-  const resolvedSchools = await Promise.all(
-    TARGET_REMOTE_SCHOOLS.map(async (spec): Promise<DiscoveredSchool | null> => {
+  const resolvedSchools: Array<DiscoveredSchool | null> = [];
+  for (const spec of TARGET_REMOTE_SCHOOLS) {
+    const resolvedSchool: DiscoveredSchool | null = await (async () => {
       for (const query of spec.queries) {
         const res = await fetch('https://places.googleapis.com/v1/places:searchText', {
           method: 'POST',
@@ -765,10 +845,20 @@ async function discoverViaGooglePlaces(
         };
       }
 
-      // If Google Places did not return an alias match for a single target school, check Nominatim
-      return resolveTargetSchoolViaNominatim(spec, central, radiusKm);
-    })
-  );
+      return null;
+    })();
+    resolvedSchools.push(resolvedSchool);
+  }
+
+  // Fill schools not found by Google Places using sequential Nominatim lookups.
+  for (let i = 0; i < resolvedSchools.length; i++) {
+    if (resolvedSchools[i] !== null) continue;
+    resolvedSchools[i] = await resolveTargetSchoolViaNominatim(
+      TARGET_REMOTE_SCHOOLS[i],
+      central,
+      radiusKm
+    );
+  }
 
   const deduped = deduplicateSchools(
     resolvedSchools.filter((s): s is DiscoveredSchool => s !== null)
@@ -789,23 +879,42 @@ async function discoverViaOverpass(
   googleMapsEnabled: boolean
 ): Promise<SchoolDiscoveryResponse> {
   const central = await resolveCentralSchoolViaNominatim();
-  const resolved = await Promise.all(
-    TARGET_REMOTE_SCHOOLS.map((spec) => resolveTargetSchoolViaNominatim(spec, central, radiusKm))
-  );
 
-  const rawSchools = resolved.filter((s): s is DiscoveredSchool => s !== null);
-  if (rawSchools.length === 0) {
-    throw new Error('OpenStreetMap live school discovery returned no results for target schools');
+  // First, discover all mapped educational facilities inside the requested radius.
+  let rawSchools = await discoverSchoolsViaOverpass(central, radiusKm);
+  console.log(`Overpass discovered ${rawSchools.length} school records`);
+
+  // Supplement Overpass results with the configured target schools that were not found.
+  // This is sequential because the public Nominatim service has a strict usage policy.
+  const foundNames = new Set(rawSchools.map((school) => normalizeSchoolName(school.name)));
+  for (const spec of TARGET_REMOTE_SCHOOLS) {
+    const alreadyFound = [...foundNames].some((name) =>
+      name.includes(normalizeSchoolName(spec.canonicalName)) ||
+      normalizeSchoolName(spec.canonicalName).includes(name)
+    );
+    if (alreadyFound) continue;
+
+    const targetSchool = await resolveTargetSchoolViaNominatim(spec, central, radiusKm);
+    if (targetSchool) {
+      rawSchools.push(targetSchool);
+      foundNames.add(normalizeSchoolName(targetSchool.name));
+    }
   }
 
   const deduped = deduplicateSchools(rawSchools);
+  if (deduped.length === 0) {
+    throw new Error(
+      'School discovery failed: Overpass and Nominatim returned no usable school records. Check the Render logs for upstream API errors.'
+    );
+  }
+
   return {
     centralSchool: central,
     radiusKm,
     provider: 'openstreetmap-overpass',
     googleMapsEnabled,
-    schoolsInRadius: deduped.filter((s) => s.withinRadius),
-    schoolsOutsideRadius: deduped.filter((s) => !s.withinRadius),
+    schoolsInRadius: deduped.filter((school) => school.withinRadius),
+    schoolsOutsideRadius: deduped.filter((school) => !school.withinRadius),
     fetchedAt: new Date().toISOString(),
   };
 }
