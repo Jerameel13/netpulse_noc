@@ -1,0 +1,6454 @@
+{
+  "devices": [
+    {
+      "id": "isp-primary",
+      "name": "Primary ISP (ISP 1)",
+      "label": "ISP 1 · Primary Fiber",
+      "type": "isp",
+      "cabinet": "ISP & WAN",
+      "ipAddress": "203.177.40.1",
+      "model": "Carrier Metro Ethernet Gateway",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 18.2,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 669.1,
+      "bandwidthOutMbps": 273.1,
+      "uptimeSeconds": 4063212,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 430,
+        "y": 20
+      },
+      "interfaces": [
+        {
+          "name": "Carrier-NNI-0/1",
+          "description": "Dedicated Enterprise Fiber Handoff",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 57,
+          "inMbps": 401.5,
+          "outMbps": 163.9,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dedicated-line"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 925.4,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 922.5,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 928.4,
+          "latencyMs": 18.2
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 927.4,
+          "latencyMs": 18.1
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 921.2,
+          "latencyMs": 18.1
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 922.2,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 917.9,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 925,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 932.4,
+          "latencyMs": 18.3
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 939.2,
+          "latencyMs": 18.1
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 932.5,
+          "latencyMs": 18.1
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 925.4,
+          "latencyMs": 18
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 925.3,
+          "latencyMs": 18.2
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 918.1,
+          "latencyMs": 18.5
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 927.8,
+          "latencyMs": 18.5
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 927.9,
+          "latencyMs": 18.6
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 926.6,
+          "latencyMs": 18.6
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 919.6,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 929.2,
+          "latencyMs": 18.6
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 938.6,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 945.4,
+          "latencyMs": 18.4
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 955.1,
+          "latencyMs": 18.3
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 949.9,
+          "latencyMs": 18.5
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 942.2,
+          "latencyMs": 18.2
+        }
+      ]
+    },
+    {
+      "id": "isp-secondary",
+      "name": "Secondary ISP (ISP 2)",
+      "label": "ISP 2 · Failover WAN",
+      "type": "isp",
+      "cabinet": "ISP & WAN",
+      "ipAddress": "122.54.18.1",
+      "model": "Backup Broadband Gateway",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 32.2,
+      "packetLossPct": 0.2,
+      "bandwidthInMbps": 18.5,
+      "bandwidthOutMbps": 9,
+      "uptimeSeconds": 2767212,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 760,
+        "y": 20
+      },
+      "interfaces": [
+        {
+          "name": "WAN-Standby-0",
+          "description": "Secondary Failover Link",
+          "status": "up",
+          "speedMbps": 500,
+          "utilizationPct": 3,
+          "inMbps": 11.1,
+          "outMbps": 5.4,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "fw-1"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29,
+          "latencyMs": 32.5
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 30.7,
+          "latencyMs": 32.6
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 31.6,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 30.7,
+          "latencyMs": 32.7
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.3,
+          "latencyMs": 32.6
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 28.7,
+          "latencyMs": 32.6
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.6,
+          "latencyMs": 32.4
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.8,
+          "latencyMs": 32.7
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 31,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 30.6,
+          "latencyMs": 32.9
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.7,
+          "latencyMs": 33
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 28.3,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.8,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.1,
+          "latencyMs": 33.1
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.2,
+          "latencyMs": 33.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 30,
+          "latencyMs": 33.2
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 30.8,
+          "latencyMs": 33.1
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.4,
+          "latencyMs": 32.9
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 29.2,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 27.7,
+          "latencyMs": 32.8
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 28.1,
+          "latencyMs": 32.5
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 26.6,
+          "latencyMs": 32.4
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 27.8,
+          "latencyMs": 32.4
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 27.5,
+          "latencyMs": 32.2
+        }
+      ]
+    },
+    {
+      "id": "cloud-storage",
+      "name": "Cloud Storage Vault",
+      "label": "Off-Site Cloud Storage",
+      "type": "cloud-storage",
+      "cabinet": "Server & Cloud",
+      "ipAddress": "52.219.128.44",
+      "model": "Encrypted S3 Off-Site Vault",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "diskUsage": 38.4,
+      "diskHealth": "Healthy",
+      "latencyMs": 13.7,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 387.5,
+      "bandwidthOutMbps": 174.5,
+      "uptimeSeconds": 15554412,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1120,
+        "y": 120
+      },
+      "interfaces": [
+        {
+          "name": "TLS-1.3-Endpoint",
+          "description": "AES-256 Encrypted Backup Target",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 34,
+          "inMbps": 232.5,
+          "outMbps": 104.7,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "isp-primary",
+        "backup-server"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 557.4,
+          "latencyMs": 12.8
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 554.1,
+          "latencyMs": 12.7
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 557.7,
+          "latencyMs": 13
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 566.3,
+          "latencyMs": 13.2
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 573.3,
+          "latencyMs": 12.9
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 577.6,
+          "latencyMs": 12.9
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 586.6,
+          "latencyMs": 13.2
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 581.2,
+          "latencyMs": 13.5
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 590.5,
+          "latencyMs": 13.6
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 600.7,
+          "latencyMs": 13.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 594.8,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 585.4,
+          "latencyMs": 13.6
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 581.3,
+          "latencyMs": 13.4
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 571.9,
+          "latencyMs": 13.6
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 572.2,
+          "latencyMs": 13.3
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 577.3,
+          "latencyMs": 13.4
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 580.3,
+          "latencyMs": 13.2
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 574.3,
+          "latencyMs": 13.2
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 565.4,
+          "latencyMs": 13.5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 555.8,
+          "latencyMs": 13.7
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 555.9,
+          "latencyMs": 14
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 561.3,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 563,
+          "latencyMs": 13.8
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 562,
+          "latencyMs": 13.7
+        }
+      ]
+    },
+    {
+      "id": "dedicated-line",
+      "name": "Enterprise Dedicated Line",
+      "label": "Dedicated Line · 99.9% SLA",
+      "type": "dedicated-line",
+      "cabinet": "ISP & WAN",
+      "ipAddress": "203.177.40.2",
+      "model": "1 Gbps Symmetrical DIA Fiber",
+      "serialNumber": "DIA-CIRCUIT-9991",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 15.9,
+      "packetLossPct": 0.01,
+      "bandwidthInMbps": 502.5,
+      "bandwidthOutMbps": 194.6,
+      "uptimeSeconds": 5532012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 430,
+        "y": 140
+      },
+      "interfaces": [
+        {
+          "name": "DIA-Fiber-Rx/Tx",
+          "description": "Guaranteed 99.9% SLA Symmetrical Fiber",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 42,
+          "inMbps": 301.5,
+          "outMbps": 116.8,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "isp-primary",
+        "fw-1"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 671.4,
+          "latencyMs": 15.4
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 666.8,
+          "latencyMs": 15.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 674.8,
+          "latencyMs": 15.3
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 681,
+          "latencyMs": 15.5
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 681.4,
+          "latencyMs": 15.4
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 680.2,
+          "latencyMs": 15.3
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 679.8,
+          "latencyMs": 15.1
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 673.9,
+          "latencyMs": 14.8
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 678.2,
+          "latencyMs": 14.7
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 679,
+          "latencyMs": 14.9
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 673.7,
+          "latencyMs": 15.2
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 664.7,
+          "latencyMs": 15.4
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 675,
+          "latencyMs": 15.6
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 668.8,
+          "latencyMs": 15.8
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 661.7,
+          "latencyMs": 16.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 658.6,
+          "latencyMs": 16
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 668.5,
+          "latencyMs": 15.8
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 675,
+          "latencyMs": 15.7
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 684.7,
+          "latencyMs": 15.9
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 694.1,
+          "latencyMs": 16.2
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 701.2,
+          "latencyMs": 16
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 703.8,
+          "latencyMs": 15.8
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 702.5,
+          "latencyMs": 16.1
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 697.1,
+          "latencyMs": 15.9
+        }
+      ]
+    },
+    {
+      "id": "fw-1",
+      "name": "Firewall 1 & 2 (HA)",
+      "label": "Firewall 1 / 2",
+      "type": "firewall",
+      "cabinet": "Central ICT Cabinet",
+      "ipAddress": "10.0.0.254",
+      "macAddress": "00:1B:21:88:4A:01",
+      "model": "FortiGate 100F HA Pair",
+      "serialNumber": "FG100F-882910",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 40,
+      "memoryUsage": 23,
+      "latencyMs": 1.1,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 820.3,
+      "bandwidthOutMbps": 336.2,
+      "uptimeSeconds": 4495212,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 580,
+        "y": 260
+      },
+      "interfaces": [
+        {
+          "name": "wan1",
+          "description": "Enterprise Dedicated Line Uplink",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 69,
+          "inMbps": 492.2,
+          "outMbps": 201.7,
+          "errors": 0
+        },
+        {
+          "name": "wan2",
+          "description": "ISP 2 Failover Uplink",
+          "status": "up",
+          "speedMbps": 300,
+          "utilizationPct": 98,
+          "inMbps": 492.2,
+          "outMbps": 201.7,
+          "errors": 0
+        },
+        {
+          "name": "internal-trunk",
+          "description": "Link to Edge Router R1",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 7,
+          "inMbps": 492.2,
+          "outMbps": 201.7,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dedicated-line",
+        "isp-secondary",
+        "edge-router"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 46,
+          "memoryPct": 26,
+          "trafficMbps": 1111.8,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 47,
+          "memoryPct": 26,
+          "trafficMbps": 1119.8,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 47,
+          "memoryPct": 25,
+          "trafficMbps": 1116,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 45,
+          "memoryPct": 25,
+          "trafficMbps": 1125.3,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 44,
+          "memoryPct": 25,
+          "trafficMbps": 1130.2,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 44,
+          "memoryPct": 24,
+          "trafficMbps": 1126.9,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 43,
+          "memoryPct": 23,
+          "trafficMbps": 1130.4,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 41,
+          "memoryPct": 23,
+          "trafficMbps": 1127.2,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 40,
+          "memoryPct": 23,
+          "trafficMbps": 1119.4,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 40,
+          "memoryPct": 23,
+          "trafficMbps": 1128,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1128.1,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 41,
+          "memoryPct": 23,
+          "trafficMbps": 1128.4,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 42,
+          "memoryPct": 22,
+          "trafficMbps": 1137.1,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 44,
+          "memoryPct": 23,
+          "trafficMbps": 1138.3,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 46,
+          "memoryPct": 24,
+          "trafficMbps": 1137.6,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 46,
+          "memoryPct": 24,
+          "trafficMbps": 1145.9,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 47,
+          "memoryPct": 24,
+          "trafficMbps": 1140.7,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 45,
+          "memoryPct": 24,
+          "trafficMbps": 1138.5,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 45,
+          "memoryPct": 23,
+          "trafficMbps": 1134.6,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 43,
+          "memoryPct": 23,
+          "trafficMbps": 1144.6,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 43,
+          "memoryPct": 22,
+          "trafficMbps": 1145.8,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 43,
+          "memoryPct": 23,
+          "trafficMbps": 1154.5,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1156.1,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 40,
+          "memoryPct": 23,
+          "trafficMbps": 1156.5,
+          "latencyMs": 1.1
+        }
+      ]
+    },
+    {
+      "id": "edge-router",
+      "name": "Edge Router (R1)",
+      "label": "Edge Router (R1)",
+      "type": "router",
+      "cabinet": "Central ICT Cabinet",
+      "ipAddress": "10.0.0.1",
+      "macAddress": "54:78:1A:44:9B:10",
+      "model": "Cisco ISR 4331/K9",
+      "serialNumber": "FDO221409XK",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 47,
+      "memoryUsage": 19,
+      "latencyMs": 3.5,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 862,
+      "bandwidthOutMbps": 357,
+      "uptimeSeconds": 5532012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 580,
+        "y": 380
+      },
+      "interfaces": [
+        {
+          "name": "Gi0/0/0",
+          "description": "Uplink to Firewall HA",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 73,
+          "inMbps": 517.2,
+          "outMbps": 214.2,
+          "errors": 0
+        },
+        {
+          "name": "Gi0/0/1",
+          "description": "10G Fiber Trunk to Core Switch",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 7,
+          "inMbps": 517.2,
+          "outMbps": 214.2,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "fw-1",
+        "core-switch"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 39,
+          "memoryPct": 22,
+          "trafficMbps": 1173.5,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 41,
+          "memoryPct": 22,
+          "trafficMbps": 1177.3,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 41,
+          "memoryPct": 23,
+          "trafficMbps": 1172.7,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1172.3,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1179.6,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 41,
+          "memoryPct": 22,
+          "trafficMbps": 1171.1,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 42,
+          "memoryPct": 22,
+          "trafficMbps": 1165.7,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1166.7,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 42,
+          "memoryPct": 23,
+          "trafficMbps": 1173.5,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 41,
+          "memoryPct": 22,
+          "trafficMbps": 1182.9,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 40,
+          "memoryPct": 21,
+          "trafficMbps": 1177.2,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 41,
+          "memoryPct": 20,
+          "trafficMbps": 1175.4,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 40,
+          "memoryPct": 21,
+          "trafficMbps": 1181,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 41,
+          "memoryPct": 20,
+          "trafficMbps": 1182.7,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 42,
+          "memoryPct": 20,
+          "trafficMbps": 1185.2,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 41,
+          "memoryPct": 19,
+          "trafficMbps": 1184.6,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 43,
+          "memoryPct": 19,
+          "trafficMbps": 1188.4,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 43,
+          "memoryPct": 18,
+          "trafficMbps": 1197.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 43,
+          "memoryPct": 18,
+          "trafficMbps": 1196.8,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 42,
+          "memoryPct": 19,
+          "trafficMbps": 1199.9,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 44,
+          "memoryPct": 18,
+          "trafficMbps": 1206.6,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 44,
+          "memoryPct": 17,
+          "trafficMbps": 1216.9,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 46,
+          "memoryPct": 18,
+          "trafficMbps": 1219.9,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 47,
+          "memoryPct": 19,
+          "trafficMbps": 1219,
+          "latencyMs": 3.5
+        }
+      ]
+    },
+    {
+      "id": "core-switch",
+      "name": "Core Switch (CSW-01)",
+      "label": "Core Switch (CSW-01)",
+      "type": "core-switch",
+      "cabinet": "Central ICT Cabinet",
+      "ipAddress": "10.0.0.2",
+      "macAddress": "00:26:CB:91:3C:00",
+      "model": "Cisco Catalyst 9300-48P",
+      "serialNumber": "FCW2309L014",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 40,
+      "memoryUsage": 53,
+      "latencyMs": 12.3,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 918,
+      "bandwidthOutMbps": 449.4,
+      "uptimeSeconds": 5532012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 580,
+        "y": 500
+      },
+      "interfaces": [
+        {
+          "name": "Te1/1/1",
+          "description": "Uplink to Edge Router R1",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 8,
+          "inMbps": 550.8,
+          "outMbps": 269.6,
+          "errors": 0
+        },
+        {
+          "name": "Te1/1/2",
+          "description": "Fiber Backbone to Distribution 1 (CID/SGOD)",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 8,
+          "inMbps": 550.8,
+          "outMbps": 269.6,
+          "errors": 0
+        },
+        {
+          "name": "Te1/1/3",
+          "description": "Fiber Backbone to Distribution 2 (OSDS/Lib/Guest)",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 8,
+          "inMbps": 550.8,
+          "outMbps": 269.6,
+          "errors": 0
+        },
+        {
+          "name": "Te1/1/4",
+          "description": "Fiber Trunk to Server Network",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 8,
+          "inMbps": 550.8,
+          "outMbps": 269.6,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "edge-router",
+        "dist-1",
+        "dist-2",
+        "server-switch"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 41,
+          "memoryPct": 52,
+          "trafficMbps": 1321.5,
+          "latencyMs": 11.3
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 40,
+          "memoryPct": 52,
+          "trafficMbps": 1325.1,
+          "latencyMs": 11.1
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 40,
+          "memoryPct": 52,
+          "trafficMbps": 1332.5,
+          "latencyMs": 11.1
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 39,
+          "memoryPct": 52,
+          "trafficMbps": 1338.2,
+          "latencyMs": 11.2
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 38,
+          "memoryPct": 51,
+          "trafficMbps": 1344,
+          "latencyMs": 11.4
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 37,
+          "memoryPct": 50,
+          "trafficMbps": 1345.2,
+          "latencyMs": 11.6
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 39,
+          "memoryPct": 50,
+          "trafficMbps": 1335.8,
+          "latencyMs": 11.4
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 38,
+          "memoryPct": 51,
+          "trafficMbps": 1331.1,
+          "latencyMs": 11.6
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 39,
+          "memoryPct": 52,
+          "trafficMbps": 1327.5,
+          "latencyMs": 11.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 40,
+          "memoryPct": 53,
+          "trafficMbps": 1329.8,
+          "latencyMs": 12.1
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 39,
+          "memoryPct": 53,
+          "trafficMbps": 1323.7,
+          "latencyMs": 12.4
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 38,
+          "memoryPct": 53,
+          "trafficMbps": 1326.7,
+          "latencyMs": 12.4
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 38,
+          "memoryPct": 53,
+          "trafficMbps": 1331.3,
+          "latencyMs": 12.6
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 40,
+          "memoryPct": 53,
+          "trafficMbps": 1336.8,
+          "latencyMs": 12.7
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 40,
+          "memoryPct": 53,
+          "trafficMbps": 1345.5,
+          "latencyMs": 12.9
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 38,
+          "memoryPct": 54,
+          "trafficMbps": 1350.4,
+          "latencyMs": 13.2
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 37,
+          "memoryPct": 54,
+          "trafficMbps": 1352.6,
+          "latencyMs": 13.1
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 37,
+          "memoryPct": 54,
+          "trafficMbps": 1345.1,
+          "latencyMs": 13.1
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 38,
+          "memoryPct": 54,
+          "trafficMbps": 1350.8,
+          "latencyMs": 12.9
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 40,
+          "memoryPct": 55,
+          "trafficMbps": 1358.1,
+          "latencyMs": 12.6
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 40,
+          "memoryPct": 55,
+          "trafficMbps": 1365.4,
+          "latencyMs": 12.4
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 39,
+          "memoryPct": 55,
+          "trafficMbps": 1361.4,
+          "latencyMs": 12.2
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 40,
+          "memoryPct": 54,
+          "trafficMbps": 1369.2,
+          "latencyMs": 12.1
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 40,
+          "memoryPct": 53,
+          "trafficMbps": 1367.4,
+          "latencyMs": 12.3
+        }
+      ]
+    },
+    {
+      "id": "dist-1",
+      "name": "Distribution Switch 1 (CID/SGOD)",
+      "label": "Distribution 1",
+      "type": "distribution-switch",
+      "cabinet": "CID Cabinet",
+      "ipAddress": "10.0.1.1",
+      "macAddress": "00:1E:4A:22:10:01",
+      "model": "Cisco Catalyst 3850-24XS",
+      "serialNumber": "FOC2018U192",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 15,
+      "memoryUsage": 27,
+      "latencyMs": 3.9,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 427.7,
+      "bandwidthOutMbps": 187.7,
+      "uptimeSeconds": 3544812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 180,
+        "y": 640
+      },
+      "interfaces": [
+        {
+          "name": "Te1/0/1",
+          "description": "Fiber Uplink to Core Switch",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 4,
+          "inMbps": 256.6,
+          "outMbps": 112.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/2",
+          "description": "Uplink to SW5_CID",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 37,
+          "inMbps": 256.6,
+          "outMbps": 112.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/3",
+          "description": "Uplink to SW6_CID",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 37,
+          "inMbps": 256.6,
+          "outMbps": 112.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/4",
+          "description": "Uplink to SW3_SGOD",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 37,
+          "inMbps": 256.6,
+          "outMbps": 112.6,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "core-switch",
+        "sw5-cid",
+        "sw6-cid",
+        "sw3-sgod"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 17,
+          "memoryPct": 28,
+          "trafficMbps": 581.5,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 18,
+          "memoryPct": 28,
+          "trafficMbps": 581.7,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 18,
+          "memoryPct": 29,
+          "trafficMbps": 584.2,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 28,
+          "trafficMbps": 586.1,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 588.3,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 583.1,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 27,
+          "trafficMbps": 585.6,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 27,
+          "trafficMbps": 588.1,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 27,
+          "trafficMbps": 589.5,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 587,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 585.4,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 586.3,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 19,
+          "memoryPct": 26,
+          "trafficMbps": 591.2,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 19,
+          "memoryPct": 26,
+          "trafficMbps": 582.5,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 19,
+          "memoryPct": 27,
+          "trafficMbps": 576.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 21,
+          "memoryPct": 26,
+          "trafficMbps": 576.8,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 27,
+          "trafficMbps": 585.4,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 21,
+          "memoryPct": 27,
+          "trafficMbps": 593.8,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 21,
+          "memoryPct": 28,
+          "trafficMbps": 588.3,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 19,
+          "memoryPct": 28,
+          "trafficMbps": 592.8,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 19,
+          "memoryPct": 28,
+          "trafficMbps": 601.8,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 17,
+          "memoryPct": 27,
+          "trafficMbps": 611.6,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 16,
+          "memoryPct": 27,
+          "trafficMbps": 611.3,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 15,
+          "memoryPct": 27,
+          "trafficMbps": 615.4,
+          "latencyMs": 3.9
+        }
+      ]
+    },
+    {
+      "id": "dist-2",
+      "name": "Distribution Switch 2 (OSDS/Lib/Guest)",
+      "label": "Distribution 2",
+      "type": "distribution-switch",
+      "cabinet": "OSDS Cabinet",
+      "ipAddress": "10.0.2.1",
+      "macAddress": "00:1E:4A:22:10:02",
+      "model": "Cisco Catalyst 3850-24XS",
+      "serialNumber": "FOC2018U199",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 41,
+      "memoryUsage": 18,
+      "latencyMs": 2.8,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 354,
+      "bandwidthOutMbps": 160,
+      "uptimeSeconds": 3544812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 580,
+        "y": 640
+      },
+      "interfaces": [
+        {
+          "name": "Te1/0/1",
+          "description": "Fiber Uplink to Core Switch",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 3,
+          "inMbps": 212.4,
+          "outMbps": 96,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/2",
+          "description": "Uplink to New_SW1 / SW_OSDS",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 31,
+          "inMbps": 212.4,
+          "outMbps": 96,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/3",
+          "description": "Uplink to SW4_Library & SW7",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 31,
+          "inMbps": 212.4,
+          "outMbps": 96,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/4",
+          "description": "Uplink to GUEST_SW",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 31,
+          "inMbps": 212.4,
+          "outMbps": 96,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "core-switch",
+        "new-sw1",
+        "sw4-library",
+        "guest-sw"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 46,
+          "memoryPct": 29,
+          "trafficMbps": 545.2,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 47,
+          "memoryPct": 28,
+          "trafficMbps": 541.4,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 48,
+          "memoryPct": 28,
+          "trafficMbps": 534.6,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 49,
+          "memoryPct": 27,
+          "trafficMbps": 541.7,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 49,
+          "memoryPct": 27,
+          "trafficMbps": 547.9,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 48,
+          "memoryPct": 27,
+          "trafficMbps": 551.4,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 46,
+          "memoryPct": 27,
+          "trafficMbps": 551.8,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 48,
+          "memoryPct": 27,
+          "trafficMbps": 542.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 49,
+          "memoryPct": 27,
+          "trafficMbps": 547,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 48,
+          "memoryPct": 26,
+          "trafficMbps": 540,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 48,
+          "memoryPct": 25,
+          "trafficMbps": 549.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 47,
+          "memoryPct": 26,
+          "trafficMbps": 544.9,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 46,
+          "memoryPct": 25,
+          "trafficMbps": 538.2,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 47,
+          "memoryPct": 25,
+          "trafficMbps": 532,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 47,
+          "memoryPct": 24,
+          "trafficMbps": 542.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 45,
+          "memoryPct": 23,
+          "trafficMbps": 540.4,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 45,
+          "memoryPct": 22,
+          "trafficMbps": 532.4,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 44,
+          "memoryPct": 22,
+          "trafficMbps": 535,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 42,
+          "memoryPct": 21,
+          "trafficMbps": 528.3,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 41,
+          "memoryPct": 21,
+          "trafficMbps": 536.3,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 41,
+          "memoryPct": 20,
+          "trafficMbps": 529.3,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 42,
+          "memoryPct": 20,
+          "trafficMbps": 525.2,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 42,
+          "memoryPct": 19,
+          "trafficMbps": 519.5,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 41,
+          "memoryPct": 18,
+          "trafficMbps": 514,
+          "latencyMs": 2.8
+        }
+      ]
+    },
+    {
+      "id": "server-switch",
+      "name": "Server Network Switch (SSW-01)",
+      "label": "Server Network",
+      "type": "distribution-switch",
+      "cabinet": "Server & Cloud",
+      "ipAddress": "10.0.10.1",
+      "macAddress": "00:1E:4A:90:00:01",
+      "model": "Cisco Catalyst 9200L-24T",
+      "serialNumber": "JAE241102M8",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 22,
+      "memoryUsage": 73,
+      "latencyMs": 0.3,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 403.6,
+      "bandwidthOutMbps": 439.3,
+      "uptimeSeconds": 5532012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 980,
+        "y": 500
+      },
+      "interfaces": [
+        {
+          "name": "Te1/1/1",
+          "description": "10G Trunk to Core Switch",
+          "status": "up",
+          "speedMbps": 10000,
+          "utilizationPct": 5,
+          "inMbps": 242.2,
+          "outMbps": 263.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/1",
+          "description": "Main File Server Trunk",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 51,
+          "inMbps": 242.2,
+          "outMbps": 263.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/2",
+          "description": "Backup Server Link",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 51,
+          "inMbps": 242.2,
+          "outMbps": 263.6,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/3",
+          "description": "Watchdog / SNMP Monitoring Server",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 51,
+          "inMbps": 242.2,
+          "outMbps": 263.6,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "core-switch",
+        "main-file-server",
+        "backup-server",
+        "watchdog-server"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 73,
+          "trafficMbps": 836.7,
+          "latencyMs": 1.6
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 21,
+          "memoryPct": 73,
+          "trafficMbps": 827.4,
+          "latencyMs": 1.6
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 74,
+          "trafficMbps": 834.1,
+          "latencyMs": 1.5
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 75,
+          "trafficMbps": 838.9,
+          "latencyMs": 1.3
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 19,
+          "memoryPct": 74,
+          "trafficMbps": 842.8,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 19,
+          "memoryPct": 74,
+          "trafficMbps": 848.2,
+          "latencyMs": 1.1
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 18,
+          "memoryPct": 74,
+          "trafficMbps": 854.9,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 74,
+          "trafficMbps": 851.7,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 21,
+          "memoryPct": 74,
+          "trafficMbps": 853.1,
+          "latencyMs": 0.7
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 22,
+          "memoryPct": 73,
+          "trafficMbps": 844.4,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 24,
+          "memoryPct": 74,
+          "trafficMbps": 844.3,
+          "latencyMs": 0.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 23,
+          "memoryPct": 74,
+          "trafficMbps": 853.9,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 25,
+          "memoryPct": 74,
+          "trafficMbps": 848.3,
+          "latencyMs": 1
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 24,
+          "memoryPct": 73,
+          "trafficMbps": 838.7,
+          "latencyMs": 1
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 24,
+          "memoryPct": 72,
+          "trafficMbps": 840.2,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 22,
+          "memoryPct": 72,
+          "trafficMbps": 831.8,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 21,
+          "memoryPct": 71,
+          "trafficMbps": 837.4,
+          "latencyMs": 0.7
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 21,
+          "memoryPct": 72,
+          "trafficMbps": 833.3,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 21,
+          "memoryPct": 73,
+          "trafficMbps": 829.2,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 21,
+          "memoryPct": 73,
+          "trafficMbps": 836,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 21,
+          "memoryPct": 73,
+          "trafficMbps": 842.8,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 23,
+          "memoryPct": 73,
+          "trafficMbps": 842.7,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 21,
+          "memoryPct": 73,
+          "trafficMbps": 851,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 22,
+          "memoryPct": 73,
+          "trafficMbps": 842.9,
+          "latencyMs": 0.3
+        }
+      ]
+    },
+    {
+      "id": "sw5-cid",
+      "name": "Access Switch SW5_CID",
+      "label": "SW5_CID",
+      "type": "access-switch",
+      "cabinet": "CID Cabinet",
+      "ipAddress": "10.0.1.11",
+      "macAddress": "00:24:C4:11:05:01",
+      "model": "Cisco Catalyst 2960X-48FPS",
+      "serialNumber": "FOC1934X02A",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 12,
+      "memoryUsage": 32,
+      "latencyMs": 2.7,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 175.4,
+      "bandwidthOutMbps": 76.5,
+      "uptimeSeconds": 3285612,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 20,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Gi1/0/48",
+          "description": "Uplink to Dist 1",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 15,
+          "inMbps": 105.2,
+          "outMbps": 45.9,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/1-12",
+          "description": "CID Desktops & Workstations",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 15,
+          "inMbps": 105.2,
+          "outMbps": 45.9,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-1",
+        "cid-computers"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 18,
+          "memoryPct": 30,
+          "trafficMbps": 261,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 19,
+          "memoryPct": 31,
+          "trafficMbps": 263,
+          "latencyMs": 1.5
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 30,
+          "trafficMbps": 255.9,
+          "latencyMs": 1.7
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 18,
+          "memoryPct": 30,
+          "trafficMbps": 257.7,
+          "latencyMs": 1.9
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 19,
+          "memoryPct": 29,
+          "trafficMbps": 256.2,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 28,
+          "trafficMbps": 257.9,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 21,
+          "memoryPct": 29,
+          "trafficMbps": 249.4,
+          "latencyMs": 1.9
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 21,
+          "memoryPct": 29,
+          "trafficMbps": 256.8,
+          "latencyMs": 1.9
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 21,
+          "memoryPct": 29,
+          "trafficMbps": 262,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 29,
+          "trafficMbps": 261,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 29,
+          "trafficMbps": 261.3,
+          "latencyMs": 2.3
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 19,
+          "memoryPct": 29,
+          "trafficMbps": 259.4,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 18,
+          "memoryPct": 30,
+          "trafficMbps": 264.3,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 16,
+          "memoryPct": 31,
+          "trafficMbps": 269,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 16,
+          "memoryPct": 31,
+          "trafficMbps": 268,
+          "latencyMs": 2.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 15,
+          "memoryPct": 31,
+          "trafficMbps": 274.8,
+          "latencyMs": 2.1
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 14,
+          "memoryPct": 31,
+          "trafficMbps": 282.6,
+          "latencyMs": 2.3
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 15,
+          "memoryPct": 32,
+          "trafficMbps": 280.8,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 14,
+          "memoryPct": 31,
+          "trafficMbps": 278.2,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 14,
+          "memoryPct": 32,
+          "trafficMbps": 270.1,
+          "latencyMs": 2.3
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 13,
+          "memoryPct": 32,
+          "trafficMbps": 260.8,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 11,
+          "memoryPct": 31,
+          "trafficMbps": 251.5,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 12,
+          "memoryPct": 31,
+          "trafficMbps": 252.5,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 12,
+          "memoryPct": 32,
+          "trafficMbps": 251.9,
+          "latencyMs": 2.7
+        }
+      ]
+    },
+    {
+      "id": "sw6-cid",
+      "name": "Access Switch SW6_CID",
+      "label": "SW6_CID",
+      "type": "access-switch",
+      "cabinet": "CID Cabinet",
+      "ipAddress": "10.0.1.12",
+      "macAddress": "00:24:C4:11:06:01",
+      "model": "Cisco Catalyst 2960X-24PS",
+      "serialNumber": "FOC1934X02B",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 63,
+      "memoryUsage": 35,
+      "latencyMs": 3.6,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 283.3,
+      "bandwidthOutMbps": 127.1,
+      "uptimeSeconds": 3285612,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 180,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Gi1/0/24",
+          "description": "Uplink to Dist 1",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 25,
+          "inMbps": 170,
+          "outMbps": 76.3,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-1",
+        "cid-computers"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 54,
+          "memoryPct": 35,
+          "trafficMbps": 399.6,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 54,
+          "memoryPct": 36,
+          "trafficMbps": 404.4,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 52,
+          "memoryPct": 37,
+          "trafficMbps": 404.7,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 53,
+          "memoryPct": 37,
+          "trafficMbps": 403,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 54,
+          "memoryPct": 37,
+          "trafficMbps": 407.6,
+          "latencyMs": 4.1
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 55,
+          "memoryPct": 37,
+          "trafficMbps": 398.6,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 54,
+          "memoryPct": 38,
+          "trafficMbps": 406.7,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 54,
+          "memoryPct": 38,
+          "trafficMbps": 410.3,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 55,
+          "memoryPct": 38,
+          "trafficMbps": 407.7,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 55,
+          "memoryPct": 38,
+          "trafficMbps": 411.2,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 55,
+          "memoryPct": 37,
+          "trafficMbps": 420.5,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 56,
+          "memoryPct": 38,
+          "trafficMbps": 417.2,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 56,
+          "memoryPct": 37,
+          "trafficMbps": 426.5,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 58,
+          "memoryPct": 37,
+          "trafficMbps": 419.9,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 60,
+          "memoryPct": 37,
+          "trafficMbps": 427.3,
+          "latencyMs": 4.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 62,
+          "memoryPct": 37,
+          "trafficMbps": 418.5,
+          "latencyMs": 4.2
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 62,
+          "memoryPct": 37,
+          "trafficMbps": 417.3,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 62,
+          "memoryPct": 37,
+          "trafficMbps": 414.5,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 62,
+          "memoryPct": 37,
+          "trafficMbps": 406.7,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 61,
+          "memoryPct": 36,
+          "trafficMbps": 411.3,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 63,
+          "memoryPct": 35,
+          "trafficMbps": 413.5,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 63,
+          "memoryPct": 36,
+          "trafficMbps": 408.4,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 64,
+          "memoryPct": 36,
+          "trafficMbps": 402.7,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 63,
+          "memoryPct": 35,
+          "trafficMbps": 410.4,
+          "latencyMs": 3.6
+        }
+      ]
+    },
+    {
+      "id": "sw3-sgod",
+      "name": "Access Switch SW3_SGOD",
+      "label": "SW3_SGOD",
+      "type": "access-switch",
+      "cabinet": "SGOD Cabinet",
+      "ipAddress": "10.0.1.21",
+      "macAddress": "00:24:C4:21:03:01",
+      "model": "Cisco Catalyst 2960X-48FPS",
+      "serialNumber": "FOC1934X03C",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 12,
+      "memoryUsage": 17,
+      "latencyMs": 2.4,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 355.8,
+      "bandwidthOutMbps": 169,
+      "uptimeSeconds": 2508012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 340,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Gi1/0/48",
+          "description": "Uplink to Dist 1",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 31,
+          "inMbps": 213.5,
+          "outMbps": 101.4,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/10",
+          "description": "PoE+ to AP2_Unifi",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 31,
+          "inMbps": 213.5,
+          "outMbps": 101.4,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-1",
+        "ap2-unifi"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 8,
+          "memoryPct": 21,
+          "trafficMbps": 511.8,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 8,
+          "memoryPct": 21,
+          "trafficMbps": 508.6,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 9,
+          "memoryPct": 21,
+          "trafficMbps": 510.4,
+          "latencyMs": 2.3
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 10,
+          "memoryPct": 20,
+          "trafficMbps": 505.8,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 12,
+          "memoryPct": 19,
+          "trafficMbps": 510.9,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 13,
+          "memoryPct": 19,
+          "trafficMbps": 504.8,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 12,
+          "memoryPct": 20,
+          "trafficMbps": 510.6,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 14,
+          "memoryPct": 19,
+          "trafficMbps": 515.1,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 14,
+          "memoryPct": 19,
+          "trafficMbps": 525.2,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 14,
+          "memoryPct": 20,
+          "trafficMbps": 515.6,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 16,
+          "memoryPct": 20,
+          "trafficMbps": 518.3,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 17,
+          "memoryPct": 20,
+          "trafficMbps": 517,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 16,
+          "memoryPct": 20,
+          "trafficMbps": 519.8,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 15,
+          "memoryPct": 20,
+          "trafficMbps": 513.7,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 16,
+          "memoryPct": 20,
+          "trafficMbps": 514,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 14,
+          "memoryPct": 19,
+          "trafficMbps": 518.8,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 14,
+          "memoryPct": 19,
+          "trafficMbps": 513.7,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 13,
+          "memoryPct": 20,
+          "trafficMbps": 512.6,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 15,
+          "memoryPct": 20,
+          "trafficMbps": 504.3,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 16,
+          "memoryPct": 20,
+          "trafficMbps": 508.4,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 15,
+          "memoryPct": 19,
+          "trafficMbps": 513.8,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 14,
+          "memoryPct": 18,
+          "trafficMbps": 505.1,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 13,
+          "memoryPct": 18,
+          "trafficMbps": 515.5,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 12,
+          "memoryPct": 17,
+          "trafficMbps": 524.8,
+          "latencyMs": 2.4
+        }
+      ]
+    },
+    {
+      "id": "new-sw1",
+      "name": "OSDS Switch (New_SW1 / SW_OSDS)",
+      "label": "New_SW1 · SW_OSDS",
+      "type": "access-switch",
+      "cabinet": "OSDS Cabinet",
+      "ipAddress": "10.0.2.11",
+      "macAddress": "00:24:C4:31:01:01",
+      "model": "Cisco Catalyst 2960X-48FPS",
+      "serialNumber": "FOC2011Z881",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 16,
+      "memoryUsage": 60,
+      "latencyMs": 2,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 297.3,
+      "bandwidthOutMbps": 135.7,
+      "uptimeSeconds": 3804012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 500,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Gi1/0/48",
+          "description": "Uplink to Dist 2",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 26,
+          "inMbps": 178.4,
+          "outMbps": 81.4,
+          "errors": 0
+        },
+        {
+          "name": "Gi1/0/5",
+          "description": "Link to HIKVISION_NVR & OSDS PCs",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 26,
+          "inMbps": 178.4,
+          "outMbps": 81.4,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-2",
+        "osds-computers"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 14,
+          "memoryPct": 59,
+          "trafficMbps": 405.4,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 12,
+          "memoryPct": 60,
+          "trafficMbps": 413.2,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 13,
+          "memoryPct": 60,
+          "trafficMbps": 421.5,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 14,
+          "memoryPct": 60,
+          "trafficMbps": 413.8,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 14,
+          "memoryPct": 61,
+          "trafficMbps": 406.4,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 13,
+          "memoryPct": 60,
+          "trafficMbps": 415.1,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 11,
+          "memoryPct": 60,
+          "trafficMbps": 415,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 11,
+          "memoryPct": 60,
+          "trafficMbps": 412.5,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 12,
+          "memoryPct": 61,
+          "trafficMbps": 403.6,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 12,
+          "memoryPct": 61,
+          "trafficMbps": 404.7,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 12,
+          "memoryPct": 60,
+          "trafficMbps": 410.5,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 13,
+          "memoryPct": 59,
+          "trafficMbps": 415.9,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 15,
+          "memoryPct": 60,
+          "trafficMbps": 418.7,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 16,
+          "memoryPct": 60,
+          "trafficMbps": 429.1,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 14,
+          "memoryPct": 61,
+          "trafficMbps": 437.7,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 14,
+          "memoryPct": 61,
+          "trafficMbps": 437.2,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 15,
+          "memoryPct": 61,
+          "trafficMbps": 437.2,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 14,
+          "memoryPct": 60,
+          "trafficMbps": 439.7,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 13,
+          "memoryPct": 60,
+          "trafficMbps": 442,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 15,
+          "memoryPct": 60,
+          "trafficMbps": 438.5,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 14,
+          "memoryPct": 61,
+          "trafficMbps": 436.9,
+          "latencyMs": 1.7
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 15,
+          "memoryPct": 61,
+          "trafficMbps": 432.5,
+          "latencyMs": 1.8
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 14,
+          "memoryPct": 60,
+          "trafficMbps": 423.1,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 16,
+          "memoryPct": 60,
+          "trafficMbps": 433,
+          "latencyMs": 2
+        }
+      ]
+    },
+    {
+      "id": "sw4-library",
+      "name": "Library Switches (SW4 & SW7)",
+      "label": "SW4 / NEW_SW7 Library",
+      "type": "access-switch",
+      "cabinet": "Library Cabinet",
+      "ipAddress": "10.0.2.21",
+      "macAddress": "00:24:C4:41:04:01",
+      "model": "Cisco Catalyst 2960X-24PS",
+      "serialNumber": "FOC2015Y412",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 64,
+      "memoryUsage": 22,
+      "latencyMs": 6.5,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 333.7,
+      "bandwidthOutMbps": 149.6,
+      "uptimeSeconds": 1816812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 660,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Gi1/0/24",
+          "description": "Uplink to Dist 2",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 29,
+          "inMbps": 200.2,
+          "outMbps": 89.8,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-2",
+        "library-computers"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 71,
+          "memoryPct": 22,
+          "trafficMbps": 565.2,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 70,
+          "memoryPct": 22,
+          "trafficMbps": 563.4,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 69,
+          "memoryPct": 22,
+          "trafficMbps": 565.9,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 67,
+          "memoryPct": 23,
+          "trafficMbps": 558.2,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 67,
+          "memoryPct": 23,
+          "trafficMbps": 552.3,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 69,
+          "memoryPct": 24,
+          "trafficMbps": 547.2,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 70,
+          "memoryPct": 24,
+          "trafficMbps": 546,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 69,
+          "memoryPct": 25,
+          "trafficMbps": 549,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 67,
+          "memoryPct": 24,
+          "trafficMbps": 542,
+          "latencyMs": 7.2
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 68,
+          "memoryPct": 23,
+          "trafficMbps": 550,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 69,
+          "memoryPct": 24,
+          "trafficMbps": 545.8,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 71,
+          "memoryPct": 23,
+          "trafficMbps": 540.3,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 69,
+          "memoryPct": 22,
+          "trafficMbps": 534.7,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 69,
+          "memoryPct": 22,
+          "trafficMbps": 528.3,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 69,
+          "memoryPct": 22,
+          "trafficMbps": 528,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 68,
+          "memoryPct": 21,
+          "trafficMbps": 528.3,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 69,
+          "memoryPct": 21,
+          "trafficMbps": 519.8,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 71,
+          "memoryPct": 22,
+          "trafficMbps": 510.4,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 70,
+          "memoryPct": 21,
+          "trafficMbps": 513,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 68,
+          "memoryPct": 21,
+          "trafficMbps": 503.4,
+          "latencyMs": 6.5
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 67,
+          "memoryPct": 21,
+          "trafficMbps": 498.6,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 67,
+          "memoryPct": 21,
+          "trafficMbps": 488.9,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 65,
+          "memoryPct": 22,
+          "trafficMbps": 487.5,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 64,
+          "memoryPct": 22,
+          "trafficMbps": 483.3,
+          "latencyMs": 6.5
+        }
+      ]
+    },
+    {
+      "id": "guest-sw",
+      "name": "Guest Network Switch (GUEST_SW)",
+      "label": "GUEST_SW · AP1",
+      "type": "access-switch",
+      "cabinet": "Guest Zone",
+      "ipAddress": "10.0.3.10",
+      "macAddress": "00:24:C4:51:09:01",
+      "model": "UniFi Switch 24 PoE",
+      "serialNumber": "UBNT-88412A",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 43,
+      "memoryUsage": 19,
+      "latencyMs": 5.3,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 641.4,
+      "bandwidthOutMbps": 289.4,
+      "uptimeSeconds": 1644012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 820,
+        "y": 780
+      },
+      "interfaces": [
+        {
+          "name": "Port24",
+          "description": "Isolated VLAN 99 Uplink to Dist 2",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 56,
+          "inMbps": 384.8,
+          "outMbps": 173.6,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "dist-2",
+        "guest-devices"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 44,
+          "memoryPct": 16,
+          "trafficMbps": 922.1,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 44,
+          "memoryPct": 15,
+          "trafficMbps": 921.1,
+          "latencyMs": 4.1
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 45,
+          "memoryPct": 15,
+          "trafficMbps": 915.2,
+          "latencyMs": 4.1
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 43,
+          "memoryPct": 15,
+          "trafficMbps": 924.5,
+          "latencyMs": 4.3
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 41,
+          "memoryPct": 15,
+          "trafficMbps": 915.4,
+          "latencyMs": 4.5
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 40,
+          "memoryPct": 15,
+          "trafficMbps": 908.7,
+          "latencyMs": 4.4
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 40,
+          "memoryPct": 16,
+          "trafficMbps": 905.9,
+          "latencyMs": 4.7
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 42,
+          "memoryPct": 15,
+          "trafficMbps": 898.8,
+          "latencyMs": 4.5
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 42,
+          "memoryPct": 15,
+          "trafficMbps": 890.7,
+          "latencyMs": 4.7
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 43,
+          "memoryPct": 15,
+          "trafficMbps": 895.3,
+          "latencyMs": 4.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 44,
+          "memoryPct": 15,
+          "trafficMbps": 890.8,
+          "latencyMs": 4.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 44,
+          "memoryPct": 16,
+          "trafficMbps": 888.2,
+          "latencyMs": 4.9
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 42,
+          "memoryPct": 16,
+          "trafficMbps": 894.7,
+          "latencyMs": 5
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 42,
+          "memoryPct": 17,
+          "trafficMbps": 889.5,
+          "latencyMs": 5
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 40,
+          "memoryPct": 16,
+          "trafficMbps": 894.7,
+          "latencyMs": 4.8
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 42,
+          "memoryPct": 16,
+          "trafficMbps": 896.6,
+          "latencyMs": 4.9
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 42,
+          "memoryPct": 17,
+          "trafficMbps": 904.3,
+          "latencyMs": 4.9
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 43,
+          "memoryPct": 17,
+          "trafficMbps": 913.3,
+          "latencyMs": 5.1
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 42,
+          "memoryPct": 16,
+          "trafficMbps": 907.1,
+          "latencyMs": 5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 41,
+          "memoryPct": 16,
+          "trafficMbps": 915.1,
+          "latencyMs": 4.7
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 43,
+          "memoryPct": 17,
+          "trafficMbps": 922.5,
+          "latencyMs": 4.9
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 42,
+          "memoryPct": 18,
+          "trafficMbps": 931.2,
+          "latencyMs": 5.1
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 41,
+          "memoryPct": 18,
+          "trafficMbps": 938.1,
+          "latencyMs": 5
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 43,
+          "memoryPct": 19,
+          "trafficMbps": 930.8,
+          "latencyMs": 5.3
+        }
+      ]
+    },
+    {
+      "id": "cid-computers",
+      "name": "CID Workstations & Printers",
+      "label": "CID Desktops / Printers",
+      "type": "endpoint",
+      "cabinet": "CID Cabinet",
+      "ipAddress": "10.0.1.100",
+      "model": "14x Division Desktops + Network Printer",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 0.6,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 405.5,
+      "bandwidthOutMbps": 168.8,
+      "uptimeSeconds": 1212012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 100,
+        "y": 920
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "sw5-cid",
+        "sw6-cid"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 534,
+          "latencyMs": 1.4
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 528.9,
+          "latencyMs": 1.3
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 533.7,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 533.1,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 537.2,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 531.7,
+          "latencyMs": 1.4
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 527.1,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 524.6,
+          "latencyMs": 1.4
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 533.9,
+          "latencyMs": 1.4
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 527.7,
+          "latencyMs": 1.3
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 521,
+          "latencyMs": 1.3
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 527.9,
+          "latencyMs": 1.1
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 535.3,
+          "latencyMs": 1
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 527.6,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 533,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 542.6,
+          "latencyMs": 1.3
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 535.5,
+          "latencyMs": 1.2
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 545.6,
+          "latencyMs": 1
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 555.9,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 557.2,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 558.6,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 560.5,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 569.1,
+          "latencyMs": 0.7
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 574.3,
+          "latencyMs": 0.6
+        }
+      ]
+    },
+    {
+      "id": "ap2-unifi",
+      "name": "SGOD Wireless (AP2_Unifi)",
+      "label": "AP2_Unifi · SGOD Clients",
+      "type": "wireless-ap",
+      "cabinet": "SGOD Cabinet",
+      "ipAddress": "10.0.1.25",
+      "macAddress": "74:83:C2:19:44:B2",
+      "model": "Ubiquiti UniFi U6-Pro",
+      "serialNumber": "U6P-99412",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 8,
+      "memoryUsage": 41,
+      "latencyMs": 14.6,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 727.6,
+      "bandwidthOutMbps": 335.2,
+      "uptimeSeconds": 2508012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 340,
+        "y": 920
+      },
+      "interfaces": [
+        {
+          "name": "wlan0",
+          "description": "5GHz Wi-Fi 6 SSID (Phones & Laptops)",
+          "status": "up",
+          "speedMbps": 1200,
+          "utilizationPct": 53,
+          "inMbps": 436.6,
+          "outMbps": 201.1,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "sw3-sgod"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 17,
+          "memoryPct": 41,
+          "trafficMbps": 1044.1,
+          "latencyMs": 14.5
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 18,
+          "memoryPct": 41,
+          "trafficMbps": 1039.9,
+          "latencyMs": 14.4
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 18,
+          "memoryPct": 41,
+          "trafficMbps": 1041.6,
+          "latencyMs": 14.4
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 17,
+          "memoryPct": 41,
+          "trafficMbps": 1051.2,
+          "latencyMs": 14.3
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 15,
+          "memoryPct": 41,
+          "trafficMbps": 1048.4,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 15,
+          "memoryPct": 41,
+          "trafficMbps": 1048.4,
+          "latencyMs": 14.3
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 14,
+          "memoryPct": 41,
+          "trafficMbps": 1049.1,
+          "latencyMs": 14.2
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 14,
+          "memoryPct": 40,
+          "trafficMbps": 1049.6,
+          "latencyMs": 14
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 14,
+          "memoryPct": 40,
+          "trafficMbps": 1045.8,
+          "latencyMs": 13.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 13,
+          "memoryPct": 39,
+          "trafficMbps": 1049.3,
+          "latencyMs": 13.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 14,
+          "memoryPct": 39,
+          "trafficMbps": 1043.4,
+          "latencyMs": 13.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 15,
+          "memoryPct": 39,
+          "trafficMbps": 1046.5,
+          "latencyMs": 13.6
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 13,
+          "memoryPct": 39,
+          "trafficMbps": 1042,
+          "latencyMs": 13.7
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 11,
+          "memoryPct": 39,
+          "trafficMbps": 1045.3,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 10,
+          "memoryPct": 40,
+          "trafficMbps": 1041.2,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 9,
+          "memoryPct": 40,
+          "trafficMbps": 1041.5,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 9,
+          "memoryPct": 41,
+          "trafficMbps": 1041,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 10,
+          "memoryPct": 40,
+          "trafficMbps": 1048.1,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 10,
+          "memoryPct": 40,
+          "trafficMbps": 1051,
+          "latencyMs": 13.9
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 9,
+          "memoryPct": 39,
+          "trafficMbps": 1046.8,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 10,
+          "memoryPct": 39,
+          "trafficMbps": 1053.7,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 11,
+          "memoryPct": 39,
+          "trafficMbps": 1047.2,
+          "latencyMs": 14.1
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 10,
+          "memoryPct": 40,
+          "trafficMbps": 1056.6,
+          "latencyMs": 14.4
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 8,
+          "memoryPct": 41,
+          "trafficMbps": 1062.8,
+          "latencyMs": 14.6
+        }
+      ]
+    },
+    {
+      "id": "osds-computers",
+      "name": "OSDS Computers & HIKVISION NVR",
+      "label": "OSDS PCs · SW2_ICT · NVR",
+      "type": "endpoint",
+      "cabinet": "OSDS Cabinet",
+      "ipAddress": "10.0.2.100",
+      "model": "OSDS Workstations, New_AP1_Unifi & NVR",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 2.7,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 297.1,
+      "bandwidthOutMbps": 136.3,
+      "uptimeSeconds": 3804012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 500,
+        "y": 920
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "new-sw1"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 464.5,
+          "latencyMs": 1.9
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 456,
+          "latencyMs": 1.7
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 460.9,
+          "latencyMs": 1.9
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 470,
+          "latencyMs": 1.8
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 468.7,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 469.9,
+          "latencyMs": 2
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 462.3,
+          "latencyMs": 2.1
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 458.4,
+          "latencyMs": 1.8
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 453.2,
+          "latencyMs": 2.1
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 453.5,
+          "latencyMs": 2.2
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 461.2,
+          "latencyMs": 2.4
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 454.1,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 452.7,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 454.5,
+          "latencyMs": 2.9
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 460.9,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 461.4,
+          "latencyMs": 3
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 465.8,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 461.6,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 467.1,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 460.3,
+          "latencyMs": 2.5
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 453.8,
+          "latencyMs": 2.7
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 448.3,
+          "latencyMs": 2.6
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 439.6,
+          "latencyMs": 2.8
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 433.4,
+          "latencyMs": 2.7
+        }
+      ]
+    },
+    {
+      "id": "library-computers",
+      "name": "Library Terminals & Printer",
+      "label": "Library PCs & Printer",
+      "type": "endpoint",
+      "cabinet": "Library Cabinet",
+      "ipAddress": "10.0.2.150",
+      "model": "Library Catalog Desktops, Laptop & Printer",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 6.3,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 142.2,
+      "bandwidthOutMbps": 62.6,
+      "uptimeSeconds": 1816812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 660,
+        "y": 920
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "sw4-library"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 209,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 219.1,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 210.1,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 208.1,
+          "latencyMs": 7.1
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 206.1,
+          "latencyMs": 6.9
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 197.6,
+          "latencyMs": 7
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 207.6,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 202.1,
+          "latencyMs": 6.5
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 194.1,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 203.4,
+          "latencyMs": 6.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 198.6,
+          "latencyMs": 6.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 208.9,
+          "latencyMs": 6.6
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 209.3,
+          "latencyMs": 6.4
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 204.7,
+          "latencyMs": 6.3
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 212.5,
+          "latencyMs": 6.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 217.4,
+          "latencyMs": 6.4
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 222.8,
+          "latencyMs": 6.5
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 221.5,
+          "latencyMs": 6.3
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 212.8,
+          "latencyMs": 6.5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 207,
+          "latencyMs": 6.4
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 208.9,
+          "latencyMs": 6.1
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 209.5,
+          "latencyMs": 6
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 201.5,
+          "latencyMs": 6.1
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 204.8,
+          "latencyMs": 6.3
+        }
+      ]
+    },
+    {
+      "id": "guest-devices",
+      "name": "Guest Portal Devices",
+      "label": "GUEST_API · Guest Devices",
+      "type": "endpoint",
+      "cabinet": "Guest Zone",
+      "ipAddress": "10.0.3.100",
+      "model": "Isolated Guest Wi-Fi Clients",
+      "status": "online",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 3.3,
+      "packetLossPct": 0.1,
+      "bandwidthInMbps": 327.8,
+      "bandwidthOutMbps": 147.3,
+      "uptimeSeconds": 1644012,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 820,
+        "y": 920
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "guest-sw"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 450,
+          "latencyMs": 4.5
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 447.7,
+          "latencyMs": 4.7
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 448,
+          "latencyMs": 4.5
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 438.6,
+          "latencyMs": 4.6
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 441.4,
+          "latencyMs": 4.8
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 440.4,
+          "latencyMs": 4.5
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 439.1,
+          "latencyMs": 4.3
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 444,
+          "latencyMs": 4.2
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 442.8,
+          "latencyMs": 4.1
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 441.9,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 451.5,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 458.3,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 455.8,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 449.7,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 458.1,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 455.1,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 458.4,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 467.8,
+          "latencyMs": 3.5
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 469,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 464.5,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 456.8,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 464.1,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 467.3,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 20,
+          "memoryPct": 35,
+          "trafficMbps": 475.1,
+          "latencyMs": 3.3
+        }
+      ]
+    },
+    {
+      "id": "main-file-server",
+      "name": "Main File Server",
+      "label": "Main File Server",
+      "type": "server",
+      "cabinet": "Server & Cloud",
+      "ipAddress": "10.0.10.10",
+      "macAddress": "3C:EC:EF:21:88:10",
+      "model": "Dell PowerEdge R540 (RAID-10)",
+      "serialNumber": "DELL-PE540-901",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 8,
+      "memoryUsage": 64,
+      "diskUsage": 68,
+      "diskHealth": "Healthy",
+      "latencyMs": 4.3,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 517.7,
+      "bandwidthOutMbps": 375.7,
+      "uptimeSeconds": 7951212,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 960,
+        "y": 340
+      },
+      "interfaces": [
+        {
+          "name": "eno1",
+          "description": "Primary Division File Share NIC",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 54,
+          "inMbps": 310.6,
+          "outMbps": 225.4,
+          "errors": 0
+        },
+        {
+          "name": "eno2",
+          "description": "Dedicated Backup Replication NIC",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 54,
+          "inMbps": 310.6,
+          "outMbps": 225.4,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "server-switch",
+        "backup-server"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 9,
+          "memoryPct": 69,
+          "trafficMbps": 825.1,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 8,
+          "memoryPct": 70,
+          "trafficMbps": 826.9,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 8,
+          "memoryPct": 71,
+          "trafficMbps": 828.5,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 10,
+          "memoryPct": 70,
+          "trafficMbps": 837.9,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 12,
+          "memoryPct": 69,
+          "trafficMbps": 840.5,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 11,
+          "memoryPct": 68,
+          "trafficMbps": 836.7,
+          "latencyMs": 3.2
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 9,
+          "memoryPct": 68,
+          "trafficMbps": 837.3,
+          "latencyMs": 3.1
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 10,
+          "memoryPct": 69,
+          "trafficMbps": 845.3,
+          "latencyMs": 3.3
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 9,
+          "memoryPct": 68,
+          "trafficMbps": 837.6,
+          "latencyMs": 3.4
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 10,
+          "memoryPct": 67,
+          "trafficMbps": 847.6,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 10,
+          "memoryPct": 67,
+          "trafficMbps": 852.7,
+          "latencyMs": 3.6
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 9,
+          "memoryPct": 67,
+          "trafficMbps": 863.1,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 10,
+          "memoryPct": 67,
+          "trafficMbps": 870.2,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 10,
+          "memoryPct": 66,
+          "trafficMbps": 875.3,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 9,
+          "memoryPct": 66,
+          "trafficMbps": 878.5,
+          "latencyMs": 4.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 8,
+          "memoryPct": 65,
+          "trafficMbps": 878.4,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 10,
+          "memoryPct": 64,
+          "trafficMbps": 882.3,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 10,
+          "memoryPct": 64,
+          "trafficMbps": 886.7,
+          "latencyMs": 3.7
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 9,
+          "memoryPct": 65,
+          "trafficMbps": 878.6,
+          "latencyMs": 3.8
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 8,
+          "memoryPct": 64,
+          "trafficMbps": 880.9,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 8,
+          "memoryPct": 64,
+          "trafficMbps": 872.5,
+          "latencyMs": 3.9
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 8,
+          "memoryPct": 64,
+          "trafficMbps": 880.3,
+          "latencyMs": 4.1
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 8,
+          "memoryPct": 64,
+          "trafficMbps": 884.4,
+          "latencyMs": 4
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 8,
+          "memoryPct": 64,
+          "trafficMbps": 893.4,
+          "latencyMs": 4.3
+        }
+      ]
+    },
+    {
+      "id": "backup-server",
+      "name": "Backup Server & Scheduler",
+      "label": "Backup Server",
+      "type": "backup-server",
+      "cabinet": "Server & Cloud",
+      "ipAddress": "10.0.10.20",
+      "macAddress": "3C:EC:EF:21:88:20",
+      "model": "Synology RackStation RS1221+ / Restic Engine",
+      "serialNumber": "SYN-2104-8821",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "SIMULATED",
+      "cpuUsage": 10,
+      "memoryUsage": 36,
+      "diskUsage": 54,
+      "diskHealth": "Healthy",
+      "latencyMs": 0.5,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 180.4,
+      "bandwidthOutMbps": 80.6,
+      "uptimeSeconds": 6482412,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1120,
+        "y": 340
+      },
+      "interfaces": [
+        {
+          "name": "eth0",
+          "description": "LAN Backup Ingestion",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 16,
+          "inMbps": 108.2,
+          "outMbps": 48.4,
+          "errors": 0
+        },
+        {
+          "name": "eth1",
+          "description": "TLS Off-Site Cloud Sync",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 16,
+          "inMbps": 108.2,
+          "outMbps": 48.4,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "server-switch",
+        "main-file-server",
+        "cloud-storage"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 9,
+          "memoryPct": 35,
+          "trafficMbps": 257.4,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 8,
+          "memoryPct": 34,
+          "trafficMbps": 265.2,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 8,
+          "memoryPct": 34,
+          "trafficMbps": 272.4,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 8,
+          "memoryPct": 33,
+          "trafficMbps": 278.8,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 9,
+          "memoryPct": 32,
+          "trafficMbps": 273.7,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 8,
+          "memoryPct": 33,
+          "trafficMbps": 272.3,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 8,
+          "memoryPct": 34,
+          "trafficMbps": 277.5,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 9,
+          "memoryPct": 35,
+          "trafficMbps": 281.6,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 9,
+          "memoryPct": 34,
+          "trafficMbps": 274.5,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 8,
+          "memoryPct": 35,
+          "trafficMbps": 266.4,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 9,
+          "memoryPct": 35,
+          "trafficMbps": 264.9,
+          "latencyMs": 0.9
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 8,
+          "memoryPct": 35,
+          "trafficMbps": 272.3,
+          "latencyMs": 0.7
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 10,
+          "memoryPct": 36,
+          "trafficMbps": 266.1,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 9,
+          "memoryPct": 36,
+          "trafficMbps": 259.6,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 8,
+          "memoryPct": 36,
+          "trafficMbps": 256.4,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 10,
+          "memoryPct": 36,
+          "trafficMbps": 262.9,
+          "latencyMs": 0.4
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 12,
+          "memoryPct": 37,
+          "trafficMbps": 261.7,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 14,
+          "memoryPct": 37,
+          "trafficMbps": 252.8,
+          "latencyMs": 0.8
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 13,
+          "memoryPct": 37,
+          "trafficMbps": 249.9,
+          "latencyMs": 0.5
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 13,
+          "memoryPct": 38,
+          "trafficMbps": 248.3,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 13,
+          "memoryPct": 38,
+          "trafficMbps": 255.1,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 13,
+          "memoryPct": 37,
+          "trafficMbps": 261,
+          "latencyMs": 0.3
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 12,
+          "memoryPct": 37,
+          "trafficMbps": 253.2,
+          "latencyMs": 0.6
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 10,
+          "memoryPct": 36,
+          "trafficMbps": 261,
+          "latencyMs": 0.5
+        }
+      ]
+    },
+    {
+      "id": "watchdog-server",
+      "name": "Network Monitoring Server (Watchdog)",
+      "label": "Watchdog Monitoring Server",
+      "type": "monitoring-server",
+      "cabinet": "Central ICT Cabinet",
+      "ipAddress": "127.0.0.1",
+      "macAddress": "02:42:AC:11:00:50",
+      "model": "NOC Telemetry Collector (Host)",
+      "serialNumber": "NOC-HOST-01",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "LIVE",
+      "cpuUsage": 4,
+      "memoryUsage": 90,
+      "diskUsage": 36,
+      "diskHealth": "Healthy",
+      "latencyMs": 0.2,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 24.5,
+      "bandwidthOutMbps": 18.2,
+      "uptimeSeconds": 952812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 980,
+        "y": 660
+      },
+      "interfaces": [
+        {
+          "name": "eth0",
+          "description": "ICMP + SNMP Poller Management Interface",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 3,
+          "inMbps": 24.5,
+          "outMbps": 18.2,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "server-switch",
+        "snmp-system"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 4,
+          "memoryPct": 85,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 4,
+          "memoryPct": 87,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 4,
+          "memoryPct": 91,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 4,
+          "memoryPct": 93,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 4,
+          "memoryPct": 91,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 4,
+          "memoryPct": 93,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 4,
+          "memoryPct": 88,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 4,
+          "memoryPct": 88,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 42.7,
+          "latencyMs": 0.2
+        }
+      ]
+    },
+    {
+      "id": "snmp-system",
+      "name": "SNMP Monitoring System",
+      "label": "SNMP Alert & Trap Engine",
+      "type": "snmp-system",
+      "cabinet": "Central ICT Cabinet",
+      "ipAddress": "10.0.10.51",
+      "macAddress": "02:42:AC:11:00:51",
+      "model": "SNMPv2c Poller & UDP Trap Receiver",
+      "serialNumber": "SNMP-ENG-01",
+      "status": "online",
+      "snmpEnabled": true,
+      "snmpCommunity": "public",
+      "telemetrySource": "LIVE",
+      "cpuUsage": 4,
+      "memoryUsage": 90,
+      "latencyMs": 0.2,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 8.4,
+      "bandwidthOutMbps": 4.9,
+      "uptimeSeconds": 952812,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 980,
+        "y": 800
+      },
+      "interfaces": [
+        {
+          "name": "udp/161-162",
+          "description": "SNMP Polling & Trap Listener",
+          "status": "up",
+          "speedMbps": 1000,
+          "utilizationPct": 1,
+          "inMbps": 8.4,
+          "outMbps": 4.9,
+          "errors": 0
+        }
+      ],
+      "connectedTo": [
+        "watchdog-server"
+      ],
+      "history": [
+        {
+          "timestamp": "20:56:23",
+          "cpuPct": 4,
+          "memoryPct": 85,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:26",
+          "cpuPct": 4,
+          "memoryPct": 87,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:29",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:32",
+          "cpuPct": 4,
+          "memoryPct": 91,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:35",
+          "cpuPct": 4,
+          "memoryPct": 93,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:38",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:41",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:44",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:47",
+          "cpuPct": 4,
+          "memoryPct": 91,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:50",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:53",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:56",
+          "cpuPct": 4,
+          "memoryPct": 94,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:56:59",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:02",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:05",
+          "cpuPct": 4,
+          "memoryPct": 95,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:08",
+          "cpuPct": 4,
+          "memoryPct": 93,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:11",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:14",
+          "cpuPct": 4,
+          "memoryPct": 88,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:17",
+          "cpuPct": 4,
+          "memoryPct": 88,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:20",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:23",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:26",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:29",
+          "cpuPct": 4,
+          "memoryPct": 89,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        },
+        {
+          "timestamp": "20:57:32",
+          "cpuPct": 4,
+          "memoryPct": 90,
+          "trafficMbps": 13.3,
+          "latencyMs": 0.2
+        }
+      ]
+    },
+    {
+      "id": "spare-core-01",
+      "name": "Backup Core Switch (Cold Spare)",
+      "label": "Backup Core Switch",
+      "type": "cold-spare",
+      "cabinet": "Onsite Cold Spares",
+      "ipAddress": "Unassigned (Standby)",
+      "macAddress": "00:26:CB:99:1A:01",
+      "model": "Cisco Catalyst 9300-48P",
+      "serialNumber": "FCW2419L0A8",
+      "status": "standby",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 0,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 0,
+      "bandwidthOutMbps": 0,
+      "uptimeSeconds": 0,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1200,
+        "y": 540
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "core-switch"
+      ],
+      "history": []
+    },
+    {
+      "id": "spare-access-01",
+      "name": "Spare Access Switch (Cold Spare)",
+      "label": "Spare Access Switch",
+      "type": "cold-spare",
+      "cabinet": "Onsite Cold Spares",
+      "ipAddress": "Unassigned (Standby)",
+      "macAddress": "00:24:C4:99:2B:01",
+      "model": "Cisco Catalyst 2960X-48FPS",
+      "serialNumber": "FOC2142Z5B2",
+      "status": "standby",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 0,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 0,
+      "bandwidthOutMbps": 0,
+      "uptimeSeconds": 0,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1200,
+        "y": 660
+      },
+      "interfaces": [],
+      "connectedTo": [
+        "dist-1"
+      ],
+      "history": []
+    },
+    {
+      "id": "spare-cables-01",
+      "name": "Spare Network Cables & Optics",
+      "label": "Spare Network Cables",
+      "type": "cold-spare",
+      "cabinet": "Onsite Cold Spares",
+      "ipAddress": "N/A (Passive)",
+      "model": "20x OM4 Fiber + 50x Cat6A Patch",
+      "serialNumber": "CBL-KIT-04",
+      "status": "standby",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 0,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 0,
+      "bandwidthOutMbps": 0,
+      "uptimeSeconds": 0,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1200,
+        "y": 780
+      },
+      "interfaces": [],
+      "connectedTo": [],
+      "history": []
+    },
+    {
+      "id": "spare-equipment-01",
+      "name": "Replacement Network Equipment",
+      "label": "Replacement Equipment",
+      "type": "cold-spare",
+      "cabinet": "Onsite Cold Spares",
+      "ipAddress": "Unassigned (Standby)",
+      "model": "Spare SFP-10G-SR + Redundant PSU + AP",
+      "serialNumber": "REP-KIT-2026",
+      "status": "standby",
+      "snmpEnabled": false,
+      "telemetrySource": "SIMULATED",
+      "latencyMs": 0,
+      "packetLossPct": 0,
+      "bandwidthInMbps": 0,
+      "bandwidthOutMbps": 0,
+      "uptimeSeconds": 0,
+      "lastUpdated": "2026-11-24T12:57:32.535Z",
+      "position": {
+        "x": 1200,
+        "y": 900
+      },
+      "interfaces": [],
+      "connectedTo": [],
+      "history": []
+    }
+  ],
+  "links": [
+    {
+      "id": "lnk-isp-dia",
+      "source": "isp-primary",
+      "target": "dedicated-line",
+      "label": "1 Gbps Symmetrical",
+      "medium": "dedicated-fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 67,
+      "status": "up",
+      "isDedicatedLine": true,
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-dia-fw",
+      "source": "dedicated-line",
+      "target": "fw-1",
+      "label": "99.9% SLA Dedicated Line",
+      "medium": "dedicated-fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 82,
+      "status": "up",
+      "isDedicatedLine": true,
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-isp2-fw",
+      "source": "isp-secondary",
+      "target": "fw-1",
+      "label": "Failover WAN",
+      "medium": "ethernet",
+      "bandwidthMbps": 500,
+      "utilizationPct": 4,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-fw-r1",
+      "source": "fw-1",
+      "target": "edge-router",
+      "label": "10G Trunk",
+      "medium": "fiber",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 9,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-r1-core",
+      "source": "edge-router",
+      "target": "core-switch",
+      "label": "10G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 9,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-core-d1",
+      "source": "core-switch",
+      "target": "dist-1",
+      "label": "Fiber Backbone",
+      "medium": "fiber",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 9,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-core-d2",
+      "source": "core-switch",
+      "target": "dist-2",
+      "label": "Fiber Backbone",
+      "medium": "fiber",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 9,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-core-srv",
+      "source": "core-switch",
+      "target": "server-switch",
+      "label": "10G Server Trunk",
+      "medium": "fiber",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 9,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d1-sw5",
+      "source": "dist-1",
+      "target": "sw5-cid",
+      "label": "1G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 43,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d1-sw6",
+      "source": "dist-1",
+      "target": "sw6-cid",
+      "label": "1G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 43,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d1-sw3",
+      "source": "dist-1",
+      "target": "sw3-sgod",
+      "label": "1G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 43,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d2-newsw1",
+      "source": "dist-2",
+      "target": "new-sw1",
+      "label": "1G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 35,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d2-sw4",
+      "source": "dist-2",
+      "target": "sw4-library",
+      "label": "1G Fiber",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 35,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-d2-guest",
+      "source": "dist-2",
+      "target": "guest-sw",
+      "label": "VLAN 99",
+      "medium": "fiber",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 64,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-sw5-cidpc",
+      "source": "sw5-cid",
+      "target": "cid-computers",
+      "label": "Cat6 UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 41,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-sw6-cidpc",
+      "source": "sw6-cid",
+      "target": "cid-computers",
+      "label": "Cat6 UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 41,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-sw3-ap2",
+      "source": "sw3-sgod",
+      "target": "ap2-unifi",
+      "label": "PoE+ UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 73,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-newsw1-osds",
+      "source": "new-sw1",
+      "target": "osds-computers",
+      "label": "Cat6 UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 30,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-sw4-libpc",
+      "source": "sw4-library",
+      "target": "library-computers",
+      "label": "Cat6 UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 33,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-guest-dev",
+      "source": "guest-sw",
+      "target": "guest-devices",
+      "label": "Wi-Fi Guest",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 64,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-srv-filesrv",
+      "source": "server-switch",
+      "target": "main-file-server",
+      "label": "1G UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 52,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-srv-backupsrv",
+      "source": "server-switch",
+      "target": "backup-server",
+      "label": "1G UTP",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 40,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-filesrv-backupsrv",
+      "source": "main-file-server",
+      "target": "backup-server",
+      "label": "Backup Stream",
+      "medium": "cloud-tunnel",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 52,
+      "status": "up",
+      "isBackupPath": true,
+      "direction": "forward"
+    },
+    {
+      "id": "lnk-backupsrv-cloud",
+      "source": "backup-server",
+      "target": "cloud-storage",
+      "label": "TLS Cloud Sync",
+      "medium": "cloud-tunnel",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 39,
+      "status": "up",
+      "isBackupPath": true,
+      "direction": "forward"
+    },
+    {
+      "id": "lnk-cloud-isp",
+      "source": "isp-primary",
+      "target": "cloud-storage",
+      "label": "Off-Site Transit",
+      "medium": "cloud-tunnel",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 67,
+      "status": "up",
+      "isBackupPath": true,
+      "direction": "forward"
+    },
+    {
+      "id": "lnk-srv-watchdog",
+      "source": "server-switch",
+      "target": "watchdog-server",
+      "label": "Telemetry Span",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 40,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-watchdog-snmp",
+      "source": "watchdog-server",
+      "target": "snmp-system",
+      "label": "SNMP Poll / Trap",
+      "medium": "ethernet",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 2,
+      "status": "up",
+      "direction": "bidirectional"
+    },
+    {
+      "id": "lnk-spare-core-ready",
+      "source": "spare-core-01",
+      "target": "core-switch",
+      "label": "Cold Spare Ready",
+      "medium": "standby",
+      "bandwidthMbps": 10000,
+      "utilizationPct": 0,
+      "status": "standby"
+    },
+    {
+      "id": "lnk-spare-access-ready",
+      "source": "spare-access-01",
+      "target": "dist-1",
+      "label": "Cold Spare Ready",
+      "medium": "standby",
+      "bandwidthMbps": 1000,
+      "utilizationPct": 0,
+      "status": "standby"
+    }
+  ],
+  "backup": {
+    "schedulerEnabled": true,
+    "scheduleTime": "02:00",
+    "retentionDays": 30,
+    "targetBucket": "s3://ict-division-vault/daily-snapshots",
+    "totalCapacityGb": 10000,
+    "usedStorageGb": 3842,
+    "status": "Completed",
+    "progressPct": 100,
+    "lastSuccessfulBackup": "2026-11-22T03:44:00.362Z",
+    "nextScheduledBackup": "2026-11-23T11:44:00.362Z",
+    "currentThroughputMbps": 0,
+    "activeFilesCount": 0,
+    "jobs": [
+      {
+        "id": "bk-104",
+        "jobName": "Daily Full Snapshot · Main File Server",
+        "sourceDevice": "Main File Server (10.0.10.10)",
+        "targetVault": "s3://ict-division-vault/daily-snapshots",
+        "startedAt": "2026-11-22T03:26:00.381Z",
+        "completedAt": "2026-11-22T03:44:00.362Z",
+        "status": "Completed",
+        "progressPct": 100,
+        "filesTransferred": 18420,
+        "totalFiles": 18420,
+        "sizeGb": 142.6,
+        "throughputMbps": 412,
+        "triggerType": "Scheduled"
+      },
+      {
+        "id": "bk-103",
+        "jobName": "Daily Incremental · CID & OSDS Records",
+        "sourceDevice": "Main File Server (10.0.10.10)",
+        "targetVault": "s3://ict-division-vault/daily-snapshots",
+        "startedAt": "2026-11-21T03:32:00.381Z",
+        "completedAt": "2026-11-21T03:44:00.381Z",
+        "status": "Completed",
+        "progressPct": 100,
+        "filesTransferred": 4820,
+        "totalFiles": 4820,
+        "sizeGb": 38.4,
+        "throughputMbps": 388,
+        "triggerType": "Scheduled"
+      },
+      {
+        "id": "bk-102",
+        "jobName": "Daily Incremental · SGOD & Library Archives",
+        "sourceDevice": "Main File Server (10.0.10.10)",
+        "targetVault": "s3://ict-division-vault/daily-snapshots",
+        "startedAt": "2026-11-20T03:29:00.381Z",
+        "completedAt": "2026-11-20T03:44:00.381Z",
+        "status": "Completed",
+        "progressPct": 100,
+        "filesTransferred": 6190,
+        "totalFiles": 6190,
+        "sizeGb": 51.2,
+        "throughputMbps": 401,
+        "triggerType": "Scheduled"
+      }
+    ]
+  },
+  "dedicatedLine": {
+    "providerName": "Dual-ISP Fiber (ISP 1 Primary + ISP 2 Failover)",
+    "circuitId": "DIA-CIRCUIT-9991-FIBER",
+    "status": "Online",
+    "activeIsp": "isp-1",
+    "slaTargetPct": 99.9,
+    "currentUptimePct": 99.97,
+    "downloadMbps": 502.5,
+    "uploadMbps": 194.6,
+    "subscribedCapacityMbps": 1000,
+    "latencyMs": 15.9,
+    "jitterMs": 1.7,
+    "packetLossPct": 0.01,
+    "failoverActive": false,
+    "healthLabel": "Optimal",
+    "telemetrySource": "SIMULATED",
+    "isps": [
+      {
+        "id": "isp-1",
+        "deviceId": "isp-primary",
+        "name": "ISP 1 · Primary Dedicated Line",
+        "providerName": "Primary Fiber Carrier (ISP 1)",
+        "circuitId": "DIA-CIRCUIT-9991-FIBER",
+        "ipAddress": "203.177.40.1",
+        "role": "Primary Dedicated",
+        "status": "Online",
+        "trafficState": "Active",
+        "slaTargetPct": 99.9,
+        "currentUptimePct": 99.97,
+        "subscribedCapacityMbps": 1000,
+        "downloadMbps": 502.5,
+        "uploadMbps": 194.6,
+        "latencyMs": 15.9,
+        "jitterMs": 1.7,
+        "packetLossPct": 0.01,
+        "telemetrySource": "SIMULATED"
+      },
+      {
+        "id": "isp-2",
+        "deviceId": "isp-secondary",
+        "name": "ISP 2 · Secondary Failover Line",
+        "providerName": "Secondary Fiber Carrier (ISP 2)",
+        "circuitId": "ISP2-CIRCUIT-4420-WAN",
+        "ipAddress": "122.54.18.1",
+        "role": "Secondary Failover",
+        "status": "Online",
+        "trafficState": "Standby",
+        "slaTargetPct": 99.5,
+        "currentUptimePct": 99.94,
+        "subscribedCapacityMbps": 500,
+        "downloadMbps": 18.5,
+        "uploadMbps": 9,
+        "latencyMs": 32.2,
+        "jitterMs": 1.7,
+        "packetLossPct": 0.05,
+        "telemetrySource": "SIMULATED"
+      }
+    ]
+  },
+  "spares": [
+    {
+      "id": "sp-inv-1",
+      "deviceId": "spare-core-01",
+      "name": "Backup Core Switch (SCSW-SPARE-01)",
+      "category": "Core Switch",
+      "model": "Cisco Catalyst 9300-48P",
+      "serialNumber": "FCW2419L0A8",
+      "condition": "Ready / Pre-configured",
+      "status": "Available",
+      "location": "Central ICT Cabinet · Rack U12 (Cold Bay)",
+      "compatibleWith": [
+        "core-switch"
+      ],
+      "lastTestedAt": "2026-11-18T03:44:00.381Z"
+    },
+    {
+      "id": "sp-inv-2",
+      "deviceId": "spare-access-01",
+      "name": "Spare Access Switch 1 (SASW-SPARE-01)",
+      "category": "Access Switch",
+      "model": "Cisco Catalyst 2960X-48FPS",
+      "serialNumber": "FOC2142Z5B2",
+      "condition": "Ready / Pre-configured",
+      "status": "Available",
+      "location": "Central ICT Cabinet · Rack U14 (Cold Bay)",
+      "compatibleWith": [
+        "sw5-cid",
+        "sw6-cid",
+        "sw3-sgod",
+        "new-sw1",
+        "sw4-library",
+        "guest-sw"
+      ],
+      "lastTestedAt": "2026-11-18T03:44:00.381Z"
+    },
+    {
+      "id": "sp-inv-3",
+      "deviceId": "spare-access-01",
+      "name": "Spare Access Switch 2 (SASW-SPARE-02)",
+      "category": "Access Switch",
+      "model": "Cisco Catalyst 2960X-24PS",
+      "serialNumber": "FOC2148Y9K1",
+      "condition": "New / Tested",
+      "status": "Available",
+      "location": "ICT Storage Vault · Shelf B2",
+      "compatibleWith": [
+        "sw5-cid",
+        "sw6-cid",
+        "sw3-sgod",
+        "new-sw1",
+        "sw4-library",
+        "guest-sw"
+      ],
+      "lastTestedAt": "2026-11-13T03:44:00.381Z"
+    },
+    {
+      "id": "sp-inv-4",
+      "deviceId": "spare-cables-01",
+      "name": "Spare Fiber & UTP Patch Bundle",
+      "category": "Cables & Optics",
+      "model": "20x OM4 LC-LC Fiber + 50x Cat6A UTP",
+      "serialNumber": "CBL-KIT-04",
+      "condition": "Tested",
+      "status": "Available",
+      "location": "Central ICT Cabinet · Drawer 1",
+      "compatibleWith": [
+        "core-switch",
+        "dist-1",
+        "dist-2",
+        "sw5-cid",
+        "new-sw1"
+      ],
+      "lastTestedAt": "2026-11-20T03:44:00.381Z"
+    },
+    {
+      "id": "sp-inv-5",
+      "deviceId": "spare-equipment-01",
+      "name": "Replacement SFP+ Optics & Redundant PSU",
+      "category": "Replacement Equipment",
+      "model": "Cisco SFP-10G-SR (x4) + PWR-C1-715WAC",
+      "serialNumber": "REP-KIT-2026",
+      "condition": "New / Tested",
+      "status": "Available",
+      "location": "ICT Storage Vault · Shelf A1",
+      "compatibleWith": [
+        "core-switch",
+        "dist-1",
+        "dist-2",
+        "edge-router"
+      ],
+      "lastTestedAt": "2026-11-16T03:44:00.381Z"
+    }
+  ],
+  "replacementHistory": [],
+  "snmpLogs": [
+    {
+      "id": "snmp-init-1",
+      "timestamp": "2026-11-23T03:44:00.362Z",
+      "deviceId": "core-switch",
+      "deviceName": "Core Switch (CSW-01)",
+      "ipAddress": "10.0.0.2",
+      "method": "SNMPv2c Poll",
+      "oid": "1.3.6.1.2.1.2.2.1.8 (ifOperStatus)",
+      "metric": "Trunk Interfaces Te1/1/1-4",
+      "value": "up(1) · 612.4 Mbps",
+      "severity": "Normal",
+      "source": "SIMULATED"
+    },
+    {
+      "id": "snmp-init-2",
+      "timestamp": "2026-11-23T03:44:00.362Z",
+      "deviceId": "main-file-server",
+      "deviceName": "Main File Server",
+      "ipAddress": "10.0.10.10",
+      "method": "SNMPv2c Poll",
+      "oid": "1.3.6.1.2.1.25.2.3.1.6 (hrStorageUsed)",
+      "metric": "RAID-10 Volume Usage",
+      "value": "68% (Healthy)",
+      "severity": "Normal",
+      "source": "SIMULATED"
+    },
+    {
+      "id": "snmp-init-3",
+      "timestamp": "2026-11-23T03:44:00.362Z",
+      "deviceId": "watchdog-server",
+      "deviceName": "Network Monitoring Server (Watchdog)",
+      "ipAddress": "127.0.0.1",
+      "method": "ICMP Ping",
+      "oid": "Host OS Telemetry",
+      "metric": "Loopback & Local Host Probe",
+      "value": "0.2 ms · 0% loss",
+      "severity": "Normal",
+      "source": "LIVE"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt-init-1",
+      "name": "All Infrastructure Nominal",
+      "affectedDeviceId": "core-switch",
+      "affectedDeviceName": "Core Switch (CSW-01)",
+      "category": "SNMP Telemetry",
+      "severity": "Normal",
+      "timestamp": "2026-11-23T03:44:00.362Z",
+      "description": "Baseline SNMPv2c polling and Enterprise Dedicated Line SLA checks are within normal operating thresholds.",
+      "status": "Resolved",
+      "source": "SIMULATED"
+    }
+  ],
+  "dashboardHistory": [
+    {
+      "time": "20:56:23",
+      "bandwidthInMbps": 484.7,
+      "bandwidthOutMbps": 186.7,
+      "latencyMs": 15.4,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:26",
+      "bandwidthInMbps": 481.5,
+      "bandwidthOutMbps": 185.3,
+      "latencyMs": 15.4,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:29",
+      "bandwidthInMbps": 487,
+      "bandwidthOutMbps": 187.8,
+      "latencyMs": 15.3,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:32",
+      "bandwidthInMbps": 491.3,
+      "bandwidthOutMbps": 189.7,
+      "latencyMs": 15.5,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:35",
+      "bandwidthInMbps": 491.6,
+      "bandwidthOutMbps": 189.8,
+      "latencyMs": 15.4,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:38",
+      "bandwidthInMbps": 490.8,
+      "bandwidthOutMbps": 189.4,
+      "latencyMs": 15.3,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:41",
+      "bandwidthInMbps": 490.5,
+      "bandwidthOutMbps": 189.3,
+      "latencyMs": 15.1,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:44",
+      "bandwidthInMbps": 486.4,
+      "bandwidthOutMbps": 187.5,
+      "latencyMs": 14.8,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:47",
+      "bandwidthInMbps": 489.4,
+      "bandwidthOutMbps": 188.8,
+      "latencyMs": 14.7,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:50",
+      "bandwidthInMbps": 490,
+      "bandwidthOutMbps": 189,
+      "latencyMs": 14.9,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:53",
+      "bandwidthInMbps": 486.3,
+      "bandwidthOutMbps": 187.4,
+      "latencyMs": 15.2,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:56",
+      "bandwidthInMbps": 480.1,
+      "bandwidthOutMbps": 184.6,
+      "latencyMs": 15.4,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:56:59",
+      "bandwidthInMbps": 487.2,
+      "bandwidthOutMbps": 187.8,
+      "latencyMs": 15.6,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:02",
+      "bandwidthInMbps": 482.9,
+      "bandwidthOutMbps": 185.9,
+      "latencyMs": 15.8,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:05",
+      "bandwidthInMbps": 478,
+      "bandwidthOutMbps": 183.7,
+      "latencyMs": 16.1,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 41,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:08",
+      "bandwidthInMbps": 475.9,
+      "bandwidthOutMbps": 182.7,
+      "latencyMs": 16,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:11",
+      "bandwidthInMbps": 482.7,
+      "bandwidthOutMbps": 185.8,
+      "latencyMs": 15.8,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:14",
+      "bandwidthInMbps": 487.2,
+      "bandwidthOutMbps": 187.8,
+      "latencyMs": 15.7,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:17",
+      "bandwidthInMbps": 493.9,
+      "bandwidthOutMbps": 190.8,
+      "latencyMs": 15.9,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:20",
+      "bandwidthInMbps": 500.4,
+      "bandwidthOutMbps": 193.7,
+      "latencyMs": 16.2,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:23",
+      "bandwidthInMbps": 505.3,
+      "bandwidthOutMbps": 195.9,
+      "latencyMs": 16,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:26",
+      "bandwidthInMbps": 507.1,
+      "bandwidthOutMbps": 196.7,
+      "latencyMs": 15.8,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:29",
+      "bandwidthInMbps": 506.2,
+      "bandwidthOutMbps": 196.3,
+      "latencyMs": 16.1,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 25,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    },
+    {
+      "time": "20:57:32",
+      "bandwidthInMbps": 502.5,
+      "bandwidthOutMbps": 194.6,
+      "latencyMs": 15.9,
+      "packetLossPct": 0.01,
+      "uptimePct": 99.97,
+      "avgCpuPct": 24,
+      "avgMemoryPct": 40,
+      "backupVolumeGb": 142.6
+    }
+  ],
+  "settings": {
+    "mode": "DEMO",
+    "pollIntervalMs": 3000,
+    "icmpTargets": {
+      "ispProbeIp": "8.8.8.8",
+      "edgeRouterIp": "127.0.0.1",
+      "localHostProbe": true
+    },
+    "snmp": {
+      "community": "public",
+      "trapPort": 1162,
+      "enableRealSnmp": false
+    },
+    "thresholds": {
+      "cpuWarningPct": 80,
+      "cpuCriticalPct": 92,
+      "memoryWarningPct": 85,
+      "diskWarningPct": 85,
+      "latencyWarningMs": 65,
+      "packetLossWarningPct": 1.5
+    },
+    "backupScheduleTime": "02:00",
+    "autoAlertsEnabled": true
+  },
+  "activeScenario": null,
+  "serverTime": "2026-11-24T12:57:32.535Z"
+}

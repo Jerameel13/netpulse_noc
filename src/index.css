@@ -1,0 +1,115 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #060b17;
+    color: #f1f5f9;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom NOC scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060b17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* React Flow Dark Navy NOC overrides */
+.react-flow__controls {
+  background: #0b1222 !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background: #0b1222 !important;
+  border-bottom: 1px solid #1e293b !important;
+  fill: #94a3b8 !important;
+  color: #94a3b8 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #111a2e !important;
+  fill: #22d3ee !important;
+}
+
+.react-flow__minimap {
+  background: #0b1222 !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__attribution {
+  display: none !important;
+}
+
+/* Ensure topology connection wires remain visible behind device cards across updates */
+.react-flow__edges {
+  z-index: 1 !important;
+  overflow: visible !important;
+  pointer-events: none;
+}
+
+.react-flow__edges svg {
+  overflow: visible !important;
+  display: block;
+}
+
+.react-flow__edge {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.react-flow__nodes {
+  z-index: 2 !important;
+}
+
+.react-flow__edgelabel-renderer {
+  z-index: 3 !important;
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+.animate-dash-flow {
+  animation: dashFlow 1s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-dash-flow {
+    animation: none;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "NetPulse NOC — Real-Time Network Topology & Monitoring System",
+  "description": "Real-time Network Operations Center visualizing Hierarchical Campus Topology, Automatic Cloud Backup, Enterprise Dedicated Line (99.9% SLA), Onsite Cold Spares, and Automated SNMP Smart Alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
